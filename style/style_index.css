@@ -1,0 +1,51 @@
+/*
+    Copyright (c) 2025 LBTH DDC&IU
+    Created: 07 Feb 2025
+    Description: Index page for DDC&UI Products
+    License: All Rights Reserved.
+
+    This code is proprietary and confidential. Unauthorized distribution or modification outside of the authorized team is prohibited.
+
+    Modification Rules:
+    - DDC&IU Team members may modify the code but must document their changes in the Change Log.
+    - External parties are not permitted to use, modify, or distribute this code.
+
+
+    Change Log:
+    - 07 Feb 2025: Initial creation (with reference style) (Jiayan Fan)
+    - 13 Feb 2025: Modify title and navigation bar (modifier: Jiayan Fan)
+    - 19 Feb 2025: Code framework modification (modifier: Jiayan Fan)
+*/
+
+body,h1,h2,h3,h4,h5,h6 {font-family: sans-serif}
+
+.custom-filter-btn {
+  background-color: #ffffff; 
+  color: rgb(0, 0, 0); 
+  border: none; 
+  padding: 8px 20px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.1s; 
+}
+
+.custom-filter-btn:hover {
+  background-color: #03b9bd; 
+}
+
+.custom-filter-btn:active {
+  background-color: #01465e; 
+  transform: scale(0.95); 
+}
+
+
+.custom-filter-btn.active-filter {
+    background-color: #03b9bd !important;
+    color: white !important;
+    border: 2px solid #01465e !important;
+    transform: scale(0.98);
+  }
+  
+
+  [data-category] {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }

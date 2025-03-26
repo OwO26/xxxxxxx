@@ -1,0 +1,50 @@
+[
+  {
+    "image": "images/index/production_icon/strategy.png",
+    "alt": "Digital Strategy",
+    "title": "Digital Strategy",
+    "description": "Achieving a time and cost-efficient service, and a technology-forward service.",
+    "category": "strategy",
+    "link": "#none"
+  },
+  {
+    "image": "images/index/production_icon/hdt.jpg",
+    "alt": "Housing Delivery Tracker",
+    "title": "Housing Delivery Tracker",
+    "description": "A monitoring tool designed to track development progress timelines within the borough.",
+    "category": "overview",
+    "link": "#none"
+  },
+  {
+    "image": "images/index/production_icon/live.jpg",
+    "alt": "Housing Monitoring Live",
+    "title": "Housing Monitoring Live",
+    "description": "Providing real-time updates and monitoring of housing development progress.",
+    "category": "overview",
+    "link": "#none"
+  },
+  {
+    "image": "images/index/production_icon/stalled.jpg",
+    "alt": "Stalled Sites Tracker",
+    "title": "Stalled Sites Tracker",
+    "description": "A interactive map for all the stalled sites in LBTH until Jan 2025.",
+    "category": "categorical",
+    "link": "stalled_map.html"
+  },
+  {
+    "image": "images/index/production_icon/committee.jpg",
+    "alt": "Committee Sites Tracker",
+    "title": "Committee Sites Tracker",
+    "description": "An interactive map for committee sites between Nov 2024 to Jan 2025 in LBTH.",
+    "category": "categorical",
+    "link": "committee_map.html"
+  },
+  {
+    "image": "images/index/production_icon/brown.jpg",
+    "alt": "Brownfield Land Register",
+    "title": "Brownfield Land Register",
+    "description": "An interactive map for all the Brownfield Land Register in LBTH.",
+    "category": "categorical",
+    "link": "#none"
+  }
+]

@@ -1,0 +1,75 @@
+<!-- 
+    Copyright (c) 2025 LBTH DDC&IU
+    Created: 07 Feb 2025
+    Description: committee site tracker page for DDC&UI Products
+    License: All Rights Reserved.
+
+    This code is proprietary and confidential. Unauthorized distribution or modification outside of the authorized team is prohibited.
+
+    Modification Rules:
+    - DDC&IU Team members may modify the code but must document their changes in the Change Log.
+    - External parties are not permitted to use, modify, or distribute this code.
+
+
+    Change Log:
+    - 07 Feb 2025: Initial creation (with reference style) (Jiayan Fan)
+    - 13 Feb 2025: Modify title and navigation bar (modifier: Jiayan Fan)
+    - 19 Feb 2025: Code framework modification (modifier: Jiayan Fan)
+
+    Reference:
+    https://github.com/mapbox/mapbox-gl-styles/blob/master/CHANGELOG.md
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Committee Site Tracker</title>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/6.5.0/turf.min.js"></script>
+  
+  <link rel="stylesheet" href="style/style_comm.css">
+
+</head>
+<body>
+  <header class="site-header">
+    <h1>Committee Site Tracker</h1>
+  </header>
+  
+  <div id="map"></div>
+  
+  <div class="map-control">
+    <button id="modeButton" onclick="toggle3DMode()">🥃 2D Mode</button>
+    <button onclick="resetView()">⚒️Reset View</button>
+    <button onclick="resetNorth()">🔭Reset North</button>
+    <button onclick="goToIndex()">◀ Back to Index Page</button>
+  </div>
+
+  <div class="site-control" id="siteControl">
+    <!--  JavaScript  -->
+  </div>
+
+  <!-- Modified Info Panel Structure -->
+  <div class="info-panel" id="infoPanel">
+    <button class="toggle-panel-btn" id="togglePanelBtn">▶</button>
+    <div class="info-content">
+      <h2>Site Information</h2>
+      <p>Click a site to see details.</p>
+    </div>
+  
+    <div class="info-footer">
+      <footer>
+        <img src="images/committee/LBTH_Logo.png" alt="Company Logo" />
+        <p>© Tower Hamlets Council DDC & IU</p>
+        <p class="disclaimer">The information displayed is based on the latest available data and may be subject to updates.</p.disclaimer>
+      </footer>
+    </div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <script src="script/script_comm.js"></script>
+</body>
+</html>

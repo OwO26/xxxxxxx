@@ -1,0 +1,7 @@
+﻿image,alt,title,description,category,link
+images/index/production_icon/strategy.png,Digital Strategy,Digital Strategy,"Achieving a time and cost-efficient service, and a technology-forward service.",strategy,#none
+images/index/production_icon/hdt.jpeg,Housing Delivery Tracker,Housing Data Flow,A monitoring tool designed to track development progress timelines within the borough.*,overview,HDF.html
+images/index/production_icon/live.jpg,Housing Monitoring Live,Planning Stats,"Monitoring of housing development progress, including Performance Tracker and Live Application.*",overview,planning_stats.html
+images/index/production_icon/stalled.jpg,Stalled Sites Tracker,Stalled Sites Tracker,An interactive map for all the stalled sites in LBTH until Jan 2025.,categorical,stalled_map.html
+images/index/production_icon/committee.jpg,Committee Sites Tracker,Committee Sites Tracker,An interactive map for committee sites between Nov 2024 to Jan 2025 in LBTH.,categorical,committee_map.html
+images/index/production_icon/brown.jpg,Brownfield Land Register,Brownfield Land Register,An interactive map for all the Brownfield Land Register in LBTH.,categorical,#none
